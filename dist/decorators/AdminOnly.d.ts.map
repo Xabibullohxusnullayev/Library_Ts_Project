@@ -1,0 +1,1 @@
+{"version":3,"file":"AdminOnly.d.ts","sourceRoot":"","sources":["../../src/decorators/AdminOnly.ts"],"names":[],"mappings":"AACA,wBAAgB,SAAS,CACrB,MAAM,EAAE,MAAM,EACd,WAAW,EAAE,MAAM,GAAG,MAAM,EAC5B,UAAU,EAAE,kBAAkB,GAC7B,IAAI,CAUN"}

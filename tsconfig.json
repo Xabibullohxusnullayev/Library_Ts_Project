@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES2020",                  // JavaScript versiyasi
+    "module": "commonjs",                // Node.js bilan ishlash uchun
+    "lib": ["ES2020", "DOM"],            // kerakli kutubxonalar
+    "outDir": "./dist",                  // kompilyatsiya natijalari papkasi
+    "rootDir": "./src",                  // manba fayllar joylashgan papka
+    "strict": true,                      // qat’iy tekshiruv rejimi
+    "esModuleInterop": true,             // CommonJS va ES modul mosligi
+    "forceConsistentCasingInFileNames": true, // fayl nomlari case-sensitivligi
+    "skipLibCheck": true,                // kutubxonalarda xatolikni tekshirmaydi
+
+    /* Module Resolution */
+    "moduleResolution": "node",          // modul qidirish usuli
+    "resolveJsonModule": true,           // .json fayllarni import qilish
+    "allowSyntheticDefaultImports": true,
+
+    /* Source Maps */
+    "sourceMap": true,                   // debugging uchun .map fayllar yaratadi
+
+    /* Experimental Options */
+    "experimentalDecorators": true,      // agar decoratorlardan foydalansang
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src"],                    // kompilyatsiya qilinadigan papkalar
+  "exclude": ["node_modules", "dist"]    // e’tibor bermaydigan papkalar
+}

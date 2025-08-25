@@ -1,4 +1,8 @@
-Usage: npx ts-node src/index.ts
-Build project with npm install
-Telegram: @xusnullayev
-Youtube: @Xabibulloh_web
+Kerakli paketlarni o‘rnating:
+Npm Install
+Loyihani ishga tushuring: npx ts-node src/main.ts
+Bu loyihada Typescriptni murakkab terminlari ishlatilindi: Generics, Decorators, Modullashtirish, Mixin va h.k
+
+Bog'lanish uchun: Telegram: @xusnullayev
+Gmail orqali bog'lanish: xxusnullayev@gmail.com
+
